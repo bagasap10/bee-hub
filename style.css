@@ -1,7 +1,22 @@
+:root {
+    --orange : #EF6C00;
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--orange);
+}
+
+body {
+    margin-right: 12%;
+    margin-left: 12%;
+    /* background-image: url("./assets/background.png"); */
 }
 
 header {
@@ -9,13 +24,49 @@ header {
     display: flex;
     padding: 10px;
     align-items: center;
+    justify-content: space-between;
+    top: 0;
+    box-shadow: 0px 4px 1000px -2px grey;
+    border-radius: 20px 20px 20px 20px;
+    position: sticky;
+    margin-bottom: 3%;
+}
+
+#header-center {
+    justify-content: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+#header-right {
+    justify-content: space-evenly;
 }
 
 header img {
     width: 75px;
     height: auto;
+    padding-right: 10px;
+}
+
+#header-left img {
+    margin-left: 20px;
+    width: 45px;
+    height: auto;
 }
 
 .orange {
-    color: #EF6C00;
+    color: var(--orange);
+}
+
+header a {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+main {
+    background-color: whitesmoke;
 }
