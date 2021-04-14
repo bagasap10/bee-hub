@@ -1,5 +1,7 @@
 :root {
     --orange : #EF6C00;
+    --gray : #E9EAEE;
+    --discgray : #36393F;
 }
 
 * {
@@ -22,7 +24,7 @@ body {
 header {
     background-color: #FFFFFF;
     display: flex;
-    padding: 10px;
+    /* padding: 10px; */
     align-items: center;
     justify-content: space-between;
     top: 0;
@@ -68,5 +70,30 @@ header a {
 }
 
 main {
-    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--gray);
+    border-radius: 20px 20px 20px 20px;
+    color: var(--discgray);
+}
+
+main div {
+    width: 40%;
+}
+
+main img {
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+main div #right {
+    justify-content: space-between;
+    align-items: center;
+}
+
+main #left {
+    align-items: center;
+    margin-left: 5%;
 }
