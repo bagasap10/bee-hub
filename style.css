@@ -72,6 +72,30 @@ a:hover {
     color: var(--darkorange);
 }
 
+.emptyloc {
+    padding: 503px;
+}
+
+.mainbanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url("./assets/background.png");
+    background-size: 100%;
+    background-position:center;
+    color: var(--discgray);
+    padding: 405px;
+}
+
+.mainbanner div {
+    justify-content: center;
+}
+
+.mainbanner h1,
+.mainbanner p {
+    text-align: center;
+}
+
 main {
     margin-top: 3%;
     display: flex;
@@ -80,8 +104,6 @@ main {
     background-color: var(--gray);
     border-radius: 20px 20px 20px 20px;
     color: var(--discgray);
-    margin-right: 12%;
-    margin-left: 12%;
 }
 
 main div {
@@ -99,15 +121,26 @@ main div #right {
 }
 
 main #left {
-    align-items: center;
-    margin-left: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 20%;
+    margin-left: 100px;
 }
 
 .button {
-    margin-left: 80%;
     display: flex;
     align-items: center;
-    justify-content: row;
+}
+
+.button .leftbutton {
+    justify-content: space-between;
+    margin-right: 12%;
+}
+
+.button .rightbutton {
+    margin-left: 12%;
 }
 
 .leftbutton {
@@ -115,6 +148,13 @@ main #left {
 }
 
 h3 {
-    text-align: center;
+    background-color: white;
+    padding: 20px 100px;
+    /* outline: var(--discgray); */
     border-radius: 20px 20px 20px 20px;
+}
+
+.container {
+    margin-right: 12%;
+    margin-left: 12%;
 }
