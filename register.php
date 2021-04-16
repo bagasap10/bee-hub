@@ -34,9 +34,13 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4 offset-md-4"></div>
+            <div class="col-md-4 offset-md-4 form-div"></div>
             <form action="register.php" method="post">
                 <h3 class="text-center">Register</h3>
+
+                <!-- <div class="alert alert-danger">
+                    <li>Username Required</li>
+                </div> -->
 
                 <div class="from-group">
                     <label for="username">Username</label>
@@ -59,7 +63,7 @@
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" name="signup-btn" class="btn btn-primary btn-block btn-lg">Sign Up </button>
+                    <button type="submit" name="signup-btn" class="btn btn-primary btn-block btn-lg">Sign Up</button>
                 </div>
                 <p class="text-center">Already a member?<a href="login.php">Sign In</a></p>
             </form>
