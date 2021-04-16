@@ -61,7 +61,7 @@
                 <div class="form-group">
                     <button type="submit" name="signup-btn" class="btn btn-primary btn-block btn-lg">Sign Up </button>
                 </div>
-                <p class="text-center">Already a member?<a href="./login.php">Sign In</a></p>
+                <p class="text-center">Already a member?<a href="login.php">Sign In</a></p>
             </form>
             </div>
         </div>
