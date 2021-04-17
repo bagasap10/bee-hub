@@ -24,15 +24,14 @@ a {
 header {
     background-color: #FFFFFF;
     display: flex;
-    /* padding: 10px; */
     align-items: center;
     justify-content: space-between;
-    top: 10px;
-    margin-left: 7%;
+    top: 0;
+    /* margin-left: 7%;
     margin-right: 7%;
-    margin-bottom: 10px;
-    box-shadow: 0px 4px 1000px -2px grey;
-    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 10px; */
+    /* box-shadow: 0px 4px 1000px -2px grey;
+    border-radius: 20px 20px 20px 20px; */
     position: sticky;
 }
 
@@ -73,10 +72,6 @@ header a {
 
 a:hover {
     color: var(--darkorange);
-}
-
-.emptyloc {
-    padding: 503px;
 }
 
 .mainbanner {
