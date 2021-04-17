@@ -28,17 +28,18 @@
         </div>
     </header>
 
-    <main class="login-container">
-        
-        <form method="POST" action="/php/register.php">
-            Username : <input type="text" name="username"><br><br>
-            Email : <input type="email" name="email"><br><br>
-            Name : <input type="name" name="name"><br><br>
-            Password : <input type="password" name="password"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-        <p class="text-center">Already a member?<a href="/php/login.php">Sign In</a></p>
-
+    <main class="register-container">
+        <div class="form">
+            <form method="POST" action="/php/register.php">
+                Username : <input type="text" name="username"><br><br>
+                Email : <input type="email" name="email"><br><br>
+                Name : <input type="name" name="name"><br><br>
+                Password : <input type="password" name="password"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+            <p class="text-center">Already a member? <a href="/php/login.php">Sign In</a></p>
+        </div>
     </main>
     
 </body>
