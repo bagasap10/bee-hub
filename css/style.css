@@ -21,6 +21,8 @@ a {
     margin-left: 12%;
 }
 
+/* Header */
+
 header {
     background-color: #FFFFFF;
     display: flex;
@@ -74,15 +76,20 @@ a:hover {
     color: var(--darkorange);
 }
 
+
+
+
+
+/* mainbanner */
+
 .mainbanner {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    background: url("/assets/background.png");
+    background-image: url("/assets/background.png");
     background-size: 100%;
-    background-position:center;
     color: var(--discgray);
-    padding: 405px;
     background-repeat: no-repeat;
 }
 
@@ -94,6 +101,38 @@ a:hover {
 .mainbanner p {
     text-align: center;
 }
+
+.button-main-banner {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.leftbutton {
+    margin-right: 2%;
+}
+
+.rightbutton {
+    margin-left: 2%;
+}
+
+.top-main-banner{
+    padding: 10%;
+}
+
+.bottom-main-banner {
+    padding: 10%;
+}
+
+
+
+
+
+
+
+/* main */
 
 main {
     margin-top: 3%;
@@ -128,32 +167,20 @@ main #left{
     margin-left: 100px;
 }
 
-.button {
-    display: flex;
-    align-items: center;
-}
-
-.button .leftbutton {
-    justify-content: space-between;
-    margin-right: 12%;
-}
-
-.button .rightbutton {
-    margin-left: 12%;
-}
-
-.leftbutton {
-    justify-content: row;
-}
-
 h3 {
     background-color: white;
     padding: 20px 100px;
-    /* outline: var(--discgray); */
     border-radius: 20px 20px 20px 20px;
 }
 
 .container {
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+/* LOGIN PAGE */
+.login-container {
+    height: 300px;
     margin-right: 12%;
     margin-left: 12%;
 }
