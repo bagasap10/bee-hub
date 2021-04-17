@@ -10,9 +10,9 @@ if (!empty($username)){
         if (!empty($name)){
             if (!empty($password)){
                 $host = "localhost";
-                $dbusername = "root";
-                $dbpassword = "";
-                $dbname = "beehub";
+                $dbusername = "id16610149_login";
+                $dbpassword = "Gang12345678!";
+                $dbname = "id16610149_beehubs";
         
                 //create connection
                 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
@@ -22,7 +22,7 @@ if (!empty($username)){
                 else{
                     $sql = "INSERT INTO register (username, email, name, password) values ('$username', '$email', '$name', '$password')";
                     if ($conn->query($sql)){
-                        echo "New record is inserted sucessfully";
+                        header("Location: /html/login.html")
                     }
                     else{
                         echo "Error: ". $sql . "<br>". $conn->error;
