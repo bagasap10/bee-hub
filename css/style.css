@@ -80,11 +80,12 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url("./assets/background.png");
+    background: url("/assets/background.png");
     background-size: 100%;
     background-position:center;
     color: var(--discgray);
     padding: 405px;
+    background-repeat: no-repeat;
 }
 
 .mainbanner div {
